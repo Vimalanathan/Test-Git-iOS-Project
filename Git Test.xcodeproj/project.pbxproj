@@ -21,6 +21,7 @@
 		949E38B719503046008124E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949E389919503046008124E5 /* UIKit.framework */; };
 		949E38BF19503046008124E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 949E38BD19503046008124E5 /* InfoPlist.strings */; };
 		949E38C119503046008124E5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 949E38C019503046008124E5 /* Git_TestTests.m */; };
+		949E38CC1950321E008124E5 /* veTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 949E38CB1950321E008124E5 /* veTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		949E38BC19503046008124E5 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		949E38BE19503046008124E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		949E38C019503046008124E5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		949E38CA1950321E008124E5 /* veTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = veTest.h; sourceTree = "<group>"; };
+		949E38CB1950321E008124E5 /* veTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = veTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		949E388919503046008124E5 = {
 			isa = PBXGroup;
 			children = (
+				949E38CA1950321E008124E5 /* veTest.h */,
+				949E38CB1950321E008124E5 /* veTest.m */,
 				949E389B19503046008124E5 /* Git Test */,
 				949E38BA19503046008124E5 /* Git TestTests */,
 				949E389419503046008124E5 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				949E38AC19503046008124E5 /* veViewController.m in Sources */,
 				949E38A219503046008124E5 /* main.m in Sources */,
+				949E38CC1950321E008124E5 /* veTest.m in Sources */,
 				949E38A619503046008124E5 /* veAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
